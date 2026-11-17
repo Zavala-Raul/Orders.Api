@@ -1,0 +1,11 @@
+@Orders.Api_HostAddress = http://localhost:5155
+
+GET {{Orders.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Orders.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
